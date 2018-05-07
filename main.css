@@ -51,7 +51,8 @@
 
     }
     h1, h2, h3 {
-      color: #37A5F0;
+      /*color: #37A5F0;*/
+      color: #00bfff;
     }
     h1 {
       color: #ffffff;
