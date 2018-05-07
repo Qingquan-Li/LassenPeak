@@ -1,0 +1,42 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head> <!--head部分,填入给浏览器看的内容(以下文字部分均为注释)-->
+        <meta charset="UTF-8">
+        <title>Lassen Peak</title>
+        <link rel="stylesheet" type="text/css" href="main.css"> <!--引用文件夹中的css样式:main.css-->
+        <link rel="icon" href="./images/favicon.ico">
+    </head>
+    <body> <!--body部分,填入在网页上可见的内容,也就是给人看的内容-->
+        <div class="header"> <!--第一个div,对应header头部部分,使用class=""引用css中对应的样式-->
+            <!-- <img src="images/blah.png"> --> <!--引用logo图片-->
+            <h1>Got to summit Mt</h1>
+            <br>
+            <ul class="nav"> <!--使用ul标签构建导航模块,并且引用导航样式-->
+                <li><a href="#">Home</a></li>  <!--使用三个li标签套嵌a标签,创建3个带链接的导航栏-->
+                <li><a href="#">Site</a></li>
+                <li><a href="#">Other</a></li>
+            </ul>
+        </div>
+
+        <div class="main-content"> <!--第二个div,对应content内容部分-->
+            <h2>Lassen Peak</h2>  <!--使用h2标签实现标题样式-->
+            <hr>  <!--使用hr标签实现水平分割线,需要注意的是这个标签比较特殊,在html中只有开始标签<hr>,没有结束标签</hr>-->
+
+            <ul class="photos"> <!--使用ul标签构建图片模块,并且引用图片样式-->
+                <li><img src="images/0001.jpg" width="150" height="150" alt="Pic1"></li> <!--使用三个li标签套嵌img标签,创建3个并列的图片,图片限定了宽高;alt是 img标签的属性,是图片的文字提示-->
+                <li><img src="images/0002.jpg" width="150" height="150" alt="Pic2"></li>
+                <li><img src="images/0003.jpg" width="150" height="150" alt="Pic3"></li>
+            </ul>
+
+            <p> <!--p标签实现一段文字的效果-->
+                Lassen(10,500ft). Mt. Lassen last erupted in 1917 and is the largest plug dome volcano in the world. Lassen National Park is one of the few areas in the world where all 4 types of volcanos can be found (plug dome, shield, cinder cone, and strato).<br>
+                Lassen Peak, commonly referred to as Mount Lassen, is the southernmost active volcano in the Cascade Range of the Western United States. Located in the Shasta Cascade region of Northern California, it is part of the Cascade Volcanic Arc, which stretches from southwestern British Columbia to northern California. Lassen Peak reaches an elevation of 10,457 feet (3,187 m), standing above the northern Sacramento Valley. It supports many flora and fauna among its diverse habitats, which are subject to frequent snowfall and reach high elevations.<br>
+                On May 22, 1915, a powerful explosive eruption at Lassen Peak devastated nearby areas, and spread volcanic ash as far as 280 miles (450 km) to the east. This explosion was the most powerful in a series of eruptions from 1914 through 1917. Lassen Peak and Mount St. Helens were the only two volcanoes in the contiguous United States to erupt during the 20th century. Lassen Volcanic National Park, which encompasses an area of 106,372 acres (430.47 km2), was created to preserve the areas affected by the eruption, for future observation and study, and to protect the nearby volcanic features.
+            </p>
+
+        </div>
+        <div class="footer">  <!--第三个div,对应footer页脚部分-->
+            <p>&copy; FatliTalk</p> <!--&copy;是©的固定写法-->
+        </div>
+    </body>
+    </html>
