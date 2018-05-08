@@ -10,6 +10,7 @@
       /*设置如何重复背景图像，这里设置背景图像不重复仅显示一次*/
       background-repeat: no-repeat;
       /*规定背景图像是否随着页面滚动，这里设置背景图像固定不滚动*/
+      /*注意fixed在PC端和一些安卓的机器上能够起作用，但是在iphone上没有效果。*/
       background-attachment: fixed;
       font-family: Helvetica, Arial, sans-serif;
   }
