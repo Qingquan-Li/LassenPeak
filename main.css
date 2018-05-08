@@ -2,9 +2,15 @@
       padding: 0 0 0 0;
       background-color: #ffffff;
       background-image: url(images/bg.jpg);
-      background-position: top left;
-      background-repeat: no-repeat;
+      /*设置背景图像的位置，这里设置背景图像居中*/
+      /*background-position: top left;*/
+      background-position: center;
+      /*设置背景图片的尺寸，这里设置背景图像完全覆盖背景区域*/
       background-size: cover;
+      /*设置如何重复背景图像，这里设置背景图像不重复仅显示一次*/
+      background-repeat: no-repeat;
+      /*规定背景图像是否随着页面滚动，这里设置背景图像固定不滚动*/
+      background-attachment: fixed;
       font-family: Helvetica, Arial, sans-serif;
   }
     .nav {
