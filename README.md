@@ -1,2 +1,1 @@
-# LassenPeak
-一个介绍拉森火山的简单网页。
+[Lassen_Peak](https://en.wikipedia.org/wiki/Lassen_Peak)
